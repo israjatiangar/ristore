@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/8d7e09f720.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body class="bg-black vstack gap-5">
+		<nav
+			class="navbar sticky-top navbar-expand-md navbar-dark border-bottom bg-opacity-75 bg-black shadow-lg border-dark p-3 px-md-0"
+			style="backdrop-filter: blur(25px)">
+			<div class="container-fluid">
+				<a href="" class="navbar-brand fw-bold">
+					<i class="fa-solid fa-bag-shopping"></i>riStore
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#NavyBar"
+					aria-controls="NavyBar"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse container-fluid row gap-3"
+					id="NavyBar">
+					<ul class="navbar-nav col-12 col-md">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Store</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Community
+							</a>
+							<ul
+								class="dropdown-menu dropdown-menu-dark border-dark bg-black mt-3">
+								<li><a class="dropdown-item" href="#">Home</a></li>
+								<li><a class="dropdown-item" href="#">Discussions</a></li>
+								<li><a class="dropdown-item" href="#">Workshop</a></li>
+								<li><a class="dropdown-item" href="#">Market</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Support</a>
+						</li>
+					</ul>
+					<form role="search" class="col-12 col-md p-0" action="">
+						<input
+							type="search"
+							class="form-control border-dark bg-black text-light rounded-pill"
+							aria-label="search"
+							placeholder="Search..." />
+					</form>
+					<div class="col d-md-flex p-0 gap-2 justify-content-end">
+						<a href="" class="btn btn-sm btn-outline-light rounded-pill">
+							Join or Login
+						</a>
+						<a href="" class="btn btn-sm btn-primary rounded-pill">
+							Download Our App
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<main class="container-fluid vstack gap-5">
+			<section>
+				<div
+					id="carouselExample"
+					class="carousel slide"
+					data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card text-bg-dark rounded-3 mx-2">
+								<img
+									src="./img/banner1.jpg"
+									class="card-img-top object-fit-cover rounded-3"
+									alt="https://unsplash.com/@goodfindsvolusia"
+									height="300px" />
+								<!-- Photo by <a href="https://unsplash.com/@goodfindsvolusia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nik Korba</a> on <a href="https://unsplash.com/photos/yellow-red-and-green-plastic-toy-3WceTBlUoMs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+								<div class="card-body justify-content-end">
+									<h5 class="card-title">Ludo +</h5>
+									<p class="d-none d-sm-block card-text">
+										Some quick example text to build on the card title and make
+										up the bulk of the card’s content.
+									</p>
+
+									<a href="#" class="btn btn-sm btn-primary rounded-pill"
+										>Download Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card text-bg-dark rounded-3 mx-2">
+								<img
+									src="./img/banner2.jpg"
+									class="card-img-top object-fit-cover rounded-3"
+									alt="..."
+									height="300px" />
+								<!-- Photo by <a href="https://unsplash.com/@hpzworkz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hassan Pasha</a> on <a href="https://unsplash.com/photos/white-ceramic-figurine-on-black-table-7SjEuEF06Zw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+								<div class="card-body justify-content-end">
+									<h5 class="card-title">Chessiac</h5>
+									<p class="d-none d-sm-block card-text">
+										Some quick example text to build on the card title and make
+										up the bulk of the card’s content.
+									</p>
+									<a href="#" class="btn btn-sm btn-primary rounded-pill"
+										>Download Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card text-bg-dark rounded-3 mx-2">
+								<img
+									src="./img/banner3.jpg"
+									class="card-img-top object-fit-cover rounded-3"
+									alt="..."
+									height="300px" />
+								<!-- Photo by <a href="https://unsplash.com/@carltraw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carl Raw</a> on <a href="https://unsplash.com/photos/gaming-room-with-arcade-machines-m3hn2Kn5Bns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+								<div class="card-body justify-content-end">
+									<h5 class="card-title">King of Games (Arcade Ver.)</h5>
+									<p class="d-none d-sm-block card-text d-sm-block">
+										Some quick example text to build on the card title and make
+										up the bulk of the card’s content.
+									</p>
+									<a href="#" class="btn btn-sm btn-primary rounded-pill"
+										>Download Now</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card text-bg-dark rounded-3 mx-2">
+								<img
+									src="./img/banner4.jpg"
+									class="card-img-top object-fit-cover rounded-3"
+									alt="..."
+									height="300px" />
+								<!-- Photo by <a href="https://unsplash.com/@dmjdenise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Denise Jans</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-pinball-machine-with-neon-lights-1rbsb36JcUE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+								<div class="card-body justify-content-end">
+									<h5 class="card-title">Pinball Mania</h5>
+									<p class="d-none d-sm-block card-text">
+										Some quick example text to build on the card title and make
+										up the bulk of the card’s content.
+									</p>
+									<a href="#" class="btn btn-sm btn-primary rounded-pill"
+										>Download Now</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button
+						class="d-none d-md-block carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExample"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="d-none d-md-block carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExample"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+			<section>
+				<div class="card rounded-3 text-bg-dark mx-2">
+					<img
+						class="card-img rounded-3 card-img-top object-fit-cover"
+						src="https://picsum.photos/id/870/1000/200?blur=2"
+						alt=""
+						height="300px" />
+					<div class="card-img-overlay align-content-end">
+						<div class="card-body">
+							<h3 class="card-title display-4 fw-bold">
+								Get 30% off<br />on your first purchase!!!
+							</h3>
+							<p class="card-text">
+								Up to ₹480 off. Save now and use by 12 August 2026
+							</p>
+							<a href="#" class="btn btn-sm btn-light">Get your Discount!!!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="d-flex align-content-center justify-content-between">
+					<h2 class="display-6 fw-normal text-light-emphasis">
+						Featured Games
+					</h2>
+					<a href="#" class="link-light rounded-pill align-content-center">
+						View More
+						<i class="fa-solid fa-arrow-right"></i>
+					</a>
+				</div>
+				<div class="row row-gap-3 justify-content-center text-center my-3">
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/214/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">City Builder</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/392/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">On the Edge</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/421/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Day 22</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/532/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Cozy Day</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/472/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Fog Up</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/338/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Shelter 123</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="d-flex align-content-center justify-content-between">
+					<h2 class="display-6 fw-normal text-light-emphasis">
+						Recent Releases
+					</h2>
+					<a href="#" class="link-light rounded-pill align-content-center">
+						View More
+						<i class="fa-solid fa-arrow-right"></i>
+					</a>
+				</div>
+				<div class="row justify-content-center text-center my-3">
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/214/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">City Builder</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/392/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">On the Edge</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/421/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Day 22</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/532/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Cozy Day</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/472/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Fog Up</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-md">
+						<div class="card text-bg-dark bg-black">
+							<img
+								class="card-img-top rounded shadow-lg"
+								src="https://picsum.photos/id/338/200?random=1"
+								alt=""
+								width="200px" />
+							<div class="card-body">
+								<h3 class="card-title">Shelter 123</h3>
+								<a
+									href="#"
+									class="btn btn-sm btn-primary rounded-pill d-block d-sm-inline">
+									Download
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="vh-100 mx-2"></section>
+		</main>
+		<footer class="container-fluid border-top border-dark p-3">
+			<section class="vstack gap-3">
+				<div class="row">
+					<div class="my-3 col-md-2 d-flex flex-column gap-2">
+						<h6 class="text-light fw-bold">riStore</h6>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							riGame Pass
+						</a>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							riPoints
+						</a>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							GiftCards
+						</a>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							Redeem
+						</a>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							Refund Policy
+						</a>
+					</div>
+					<div class="my-3 col-md-2 d-flex flex-column gap-2">
+						<h6 class="text-light fw-bold">Other Controls</h6>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							Language
+						</a>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							Parental Guide
+						</a>
+						<a href="" class="text-light text-decoration-none opacity-50">
+							Family Sharing
+						</a>
+					</div>
+					<hr />
+				</div>
+				<div class="d-flex flex-column fs-6 flex-md-row gap-4">
+					<a href="" class="text-light text-decoration-none opacity-50">
+						Terms & Conditions
+					</a>
+					<a href="" class="text-light text-decoration-none opacity-50">
+						Privacy Policy
+					</a>
+					<a href="" class="text-light text-decoration-none opacity-50">
+						About riStore
+					</a>
+					<a href="" class="text-light text-decoration-none opacity-50">
+						Developer Options
+					</a>
+					<p class="text-light text-decoration-none opacity-50 disabled">
+						All price include GST
+					</p>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
