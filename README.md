@@ -30,9 +30,9 @@ A technical showcase project featuring responsive layouts, interactive UI compon
 - All other photos provided by:
   - [lorem picsum](https://picsum.photos/)
 
-### AI Declaration
+## AI Declaration
 
-> :robot: used ai for : placeholder text and readme grammar
+> used :robot: for : placeholder text and readme grammar
 
 ---
 
