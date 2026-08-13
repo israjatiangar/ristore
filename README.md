@@ -28,7 +28,7 @@ A technical showcase project featuring responsive layouts, interactive UI compon
 - About & Support page Banner:
   - Photo by <a href="https://unsplash.com/@lorenzoherrera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorenzo Herrera</a> on <a href="https://unsplash.com/photos/vintage-gray-game-console-and-joystick-p0j-mE6mGo4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Login Page Banner:
-  - Photo by <a href="https://unsplash.com/@goodfindsvolusia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nik Korba</a> on <a href="https://unsplash.com/photos/yellow-red-and-green-plastic-toy-3WceTBlUoMs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - Photo by <a href="https://unsplash.com/@nickhamze?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Hamze</a> on <a href="https://unsplash.com/photos/nintendo-game-card-collection-V6wm5Z18obw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - All other photos provided by:
   - [lorem picsum](https://picsum.photos/)
 
