@@ -27,6 +27,8 @@ A technical showcase project featuring responsive layouts, interactive UI compon
   - Photo by <a href="https://unsplash.com/@dmjdenise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Denise Jans</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-pinball-machine-with-neon-lights-1rbsb36JcUE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - About & Support page Banner:
   - Photo by <a href="https://unsplash.com/@lorenzoherrera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorenzo Herrera</a> on <a href="https://unsplash.com/photos/vintage-gray-game-console-and-joystick-p0j-mE6mGo4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Login Page Banner:
+  - Photo by <a href="https://unsplash.com/@goodfindsvolusia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nik Korba</a> on <a href="https://unsplash.com/photos/yellow-red-and-green-plastic-toy-3WceTBlUoMs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - All other photos provided by:
   - [lorem picsum](https://picsum.photos/)
 
